@@ -1,0 +1,26 @@
+{
+  "name": "backend-api-pagination",
+  "version": "1.0.0",
+  "description": "backend api with pagination",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "api",
+    "pagination"
+  ],
+  "author": "Yandro Portal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "mongoose-paginate-v2": "^1.7.1",
+    "nodemon": "^2.0.19"
+  }
+}
